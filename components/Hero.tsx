@@ -28,7 +28,6 @@ export const Hero = (props: Props) => {
 		<div
 			className={"h-screen flex flex-col space-y-8 item-center justify-center text-center overflow-hidden"}
 		>
-			
 			<BackgroundCircles/>
 			<Image
 				className={"relative rounded-full mx-auto object-cover"}
