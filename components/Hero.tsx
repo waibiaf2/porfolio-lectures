@@ -1,5 +1,6 @@
 /*React imports*/
 import * as React from 'react';
+import Link from "next/link";
 
 /*Third party imports*/
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
@@ -39,15 +40,28 @@ export const Hero = (props: Props) => {
 				// blurDataURL="data:..." automatically provided
 				placeholder="blur" // Optional blur-up while loading
 			/>
-			<div>
-				
-				<h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[15px"}>
+			<div className={"z-20"}>
+				<h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[10px]"}>
 					Software Engineer
 				</h2>
-				<h1 className={"text-3xl lg:text-5xl font-semibold px-10 text-gray-500 pb-2 tracking-[15px"}>
+				<h1 className={"text-3xl lg:text-5xl font-semibold px-10 text-gray-500 pb-2 tracking-[10px]"}>
 					<span className={"mr-3"}>{text}</span>
 					<Cursor />
 				</h1>
+				<div className={'pt-5'}>
+					<Link rel="stylesheet" href="#about">
+						<button className={"heroButton"}>About</button>
+					</Link>
+					<Link rel="stylesheet" href="#experience">
+						<button className={"heroButton"}>Experience</button>
+					</Link>
+					<Link rel="stylesheet" href="#skills">
+						<button className={"heroButton"}>Skills</button>
+					</Link>
+					<Link rel="stylesheet" href="#projects">
+						<button className={"heroButton"}>Projects</button>
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
