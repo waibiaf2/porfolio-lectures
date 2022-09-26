@@ -32,7 +32,7 @@ export const BackgroundCircles = (props: Props) => {
 				className={"absolute border rounded-full border-[#333333] h-[500px] w-[500px] mt-52"}
 			/>
 			<div
-				className={"absolute border rounded-full border-[#F7AB0A]  h-[650] w-[650] mt-52 animate-pulse"}
+				className={"absolute border rounded-full border-[#F7AB0A] h-[650] w-[650] mt-52 animate-pulse"}
 			/>
 			<div
 				className={"absolute border rounded-full border-[#F7AB0A] opacity-20 h-[800] w-[800] mt-52"}
