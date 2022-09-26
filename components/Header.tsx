@@ -6,6 +6,7 @@ import {motion} from "framer-motion";
 type Props = {
 
 };
+
 export const Header = (props: Props) => {
 	return (
 		<header className={"sticky top-0 p-5 flex items-start justify-between  max-w-7xl mx-auto z-20 xl:items-center"}>
@@ -35,9 +36,10 @@ export const Header = (props: Props) => {
 					bgColor={"transparent"}
 				/>
 				<SocialIcon
-					url={"https://www.youtube.com/sonnysangha"}
+					url={"https://www.facebook.com/waibi.andrewfranklin/"}
 					fgColor={"gray"}
 					bgColor={"transparent"}
+					target={"_blank"}
 				/>
 				<SocialIcon
 					url={"https://www.youtube.com/sonnysangha"}
@@ -74,7 +76,7 @@ export const Header = (props: Props) => {
 					fgColor={"gray"}
 					bgColor={"transparent"}
 				/>
-				<p className={"uppercase hidden md:inline-flex text-sm text-gray-400"}>
+				<p className={"uppercase hidden md:inline-flex text-sm text-gray-400 cursor-pointer"}>
 					Get In Touch
 				</p>
 			</motion.div>
