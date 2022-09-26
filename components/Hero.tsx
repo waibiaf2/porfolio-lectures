@@ -41,10 +41,10 @@ export const Hero = (props: Props) => {
 				placeholder="blur" // Optional blur-up while loading
 			/>
 			<div className={"z-20"}>
-				<h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[10px]"}>
+				<h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[8px]"}>
 					Software Engineer
 				</h2>
-				<h1 className={"text-3xl lg:text-5xl font-semibold px-10 text-gray-500 pb-2 tracking-[10px]"}>
+				<h1 className={"text-3xl lg:text-5xl font-semibold px-10 text-gray-500 pb-2 tracking-wide"}>
 					<span className={"mr-3"}>{text}</span>
 					<Cursor />
 				</h1>
